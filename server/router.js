@@ -1,5 +1,7 @@
-const main = require('./routes/main');
+const index = require('./routes/index');
+const login = require('./routes/login');
 
 module.exports = {
-    main
+    index,
+    login
 };
